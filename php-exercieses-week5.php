@@ -4,33 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Övningar</title>
-    <style>
-        h2 {
-            margin:0px;
-            font-size: 1.1rem;
-        }
-
-        table {
-            border: 1px solid black;
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 1px;
-            text-align: left;
-        }
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 10px;
-        }
-        .grid-item {
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <h1>PHP Övningar vecka 5</h1>
@@ -106,6 +80,8 @@
 <?php
 // Skriv ett PHP-skript som implementerar paginering på en användarlista för att visa ett begränsat antal användare per sida.
 ?>
+</div>
+
 
 <div class="grid-item">
 Övning 11:<h2>OOPinPHP</h2>
@@ -113,24 +89,28 @@
 // Skapa en klass som heter user. Ge den alla properties som finns i din databas för users. Skapa även en konstruktor och använd $this-> för att sätta inparametrars värde till properties
 //Skapa också en metod för att echo ut namnet på usern.
 ?>
+</div>
 
 <div class="grid-item">
 Övning 12:<h2>ObjectToDB</h2>
 <?php
 // Skriv ett PHP-skript som hämtar en användare från databasen och skriver alla kolumner till ett User-objekt.
 ?>
+</div>
 
 <div class="grid-item">
 Övning 13:<h2>ObjectToDB</h2>
 <?php
 // Gör samma sak fast omvänd ordning från förra uppgiften. Spara ett objekt som innehåller användarinformation till tabellen
 ?>
+</div>
 
 <div class="grid-item">
 Övning 14:<h2>DBtoObjectToArray</h2>
 <?php
 // Hämta alla users från databasen, gör om de till objekt och skriv de sedan till en array full med objekt.
 ?>
+</div>
 
 </div>
 </div>
